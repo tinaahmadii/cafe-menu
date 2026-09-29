@@ -1,0 +1,214 @@
+/* fonts */
+@font-face {
+  font-family: "vazir";
+  src: url("styles/fonts/Vazir-Thin_p30download.com.eot") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "vazir";
+  src: url("styles/fonts/Vazir-Light_p30download.com.eot") format("eot");
+  font-weight: 300;
+  font-style: normal;
+}
+/* main body */
+body {
+  direction: rtl;
+  font-family: "vazir";
+  background: #fff2c7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.container {
+  width: 90%;
+  margin-right: 5%;
+}
+.contact-header-text {
+  width: 70%;
+}
+.contact-header {
+  margin-top: 25px;
+  display: flex;
+}
+.contact-box1 {
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+.contact-box2 {
+  padding-bottom: 30px;
+  margin-top: 15px;
+}
+.contact-box1,
+.contact-box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  height: auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-top: 15px;
+  gap: 0px;
+}
+
+.phone-num-div,
+.mail-div,
+.instagram-div,
+.twitter-div,
+.facebook-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-top: -12px;
+}
+.phone-num-div,
+.instagram-div {
+  margin-top: -20px;
+}
+
+/* text style */
+.contact-header p {
+  color: #6e6464;
+  font-size: 14px;
+  margin-top: 0px;
+  line-height: 25px;
+}
+#head-p {
+  font-size: 24px;
+  color: #3c3c3c;
+  margin-top: 25px;
+  font-weight: 400;
+}
+#head-p2 {
+  margin-top: -05px;
+}
+h2,
+h3 {
+  color: #818181;
+}
+.contact-box1 h2 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+.contact-box2 h2 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact-box1 p {
+  font-size: 13px;
+  color: #494949;
+  margin: 0;
+}
+h4 {
+  font-family: vazir;
+  font-size: 12px;
+  color: #818181;
+  font-weight: lighter;
+  margin: 0 0 4px 0;
+}
+h5 {
+  font-size: 12px;
+  color: #818181;
+  font-weight: 100;
+  margin: 0 0 4px 0;
+}
+.contact-box2 p {
+  font-size: 13px;
+  line-height: 10px;
+  margin: 0;
+  font-weight: 100;
+  color: #494949;
+}
+.contact-box1 p {
+  font-size: 13px;
+  line-height: 10px;
+  font-weight: 100;
+  margin: 0;
+  color: #494949;
+}
+
+/* images */
+#contact-img {
+  width: 76px;
+  height: 76px;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+#instagram-img {
+  width: 18px;
+}
+#twitter-img {
+  width: 18px;
+  height: 18px;
+}
+#facebook-img {
+  width: 9px;
+}
+
+#mail-img {
+  width: 18px;
+  height: 18px;
+}
+#phone-img {
+  width: 16px;
+  height: 17px;
+}
+.img-border {
+  border: 2px solid #ececec;
+  border-radius: 50%;
+  padding: 7px;
+  background: #ececec;
+  display: flex;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  margin-top: 25px;
+  margin-right: 5px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 12px 0;
+}
+
+.nav {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 13px 0;
+  box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.06);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.nav button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.nav img {
+  width: 24px;
+}

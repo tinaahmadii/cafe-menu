@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Vazir";
+  background: #fff2c7;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+.header {
+  background-image: linear-gradient(#b0d6b7, #5c7060);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding-bottom: 30px;
+  padding-top: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card-header {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.notification {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+.redline-logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.redline-logo p {
+  color: white;
+}
+.card-logo {
+  width: 35px;
+  margin-left: 5px;
+}
+
+.card-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.card-items-right {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: flex-end;
+}
+
+#card-h1 {
+  color: #ffd078;
+  text-align: right;
+  font-size: 28px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: -10px;
+}
+
+#card-p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#card-btn {
+  background: #ffd078;
+  color: #5c7060;
+  border-radius: 12px;
+  width: 80px;
+  height: 29px;
+  border: #ffd078;
+  font-family: "Vazir";
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: 25px;
+}
+
+.coffee-img {
+  max-width: 120px;
+}
+
+@media screen and (min-width: 330px) and (max-width: 420px) {
+  .card-items-right {
+    width: auto;
+  }
+  .card-items-left {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 330px) {
+  .card-items-left {
+    width: 40%;
+  }
+  .card-items-right {
+    width: auto;
+  }
+}
+
+.category-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 16px 10px;
+  color: #48734e;
+}
+
+.card-container {
+  display: flex;
+  gap: 10px;
+  padding: 0px 10px;
+  overflow-x: auto;
+  width: 95%;
+  margin: auto;
+}
+
+.card-container::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  min-width: 155px;
+}
+
+.card button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.card button img {
+  width: 18px;
+}
+
+.drink-img {
+  width: 60%;
+  margin: 12px auto 6px;
+}
+.drink-img img {
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: -10px;
+}
+.price {
+  color: #67b080;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+.price p {
+  margin: 0;
+}
+
+.underline-img {
+  margin-bottom: 8px;
+  width: 40px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 12px 0;
+}
+
+.nav {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: fixed;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 13px 0;
+  box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.nav button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.nav img {
+  width: 24px;
+}
